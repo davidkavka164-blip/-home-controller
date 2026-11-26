@@ -1,0 +1,3 @@
+# CLOUD DEV REV01
+Standalone demo only. No live data, no actuator commands, no firmware changes.
+Next: select authenticated TLS MQTT broker, separate read-only browser credentials and per-device publish-only ACLs. Never commit secrets. Validate certificate and hostname; no insecure TLS fallback. Prototype on separate ESP32 without actuators. Verify WiFi and W5500 TLS compatibility with ESP32 core 1.0.6 before integration. Preserve original firmware and NVS; cloud failure must not block local control. Mark stale telemetry offline. No retained actuator commands. GitHub Pages: deploy main / root manually. No production deployment yet.
